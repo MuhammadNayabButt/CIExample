@@ -43,7 +43,7 @@ class CarTests: XCTestCase {
         jeep.start(minutes: minutes)
         
         //Test it
-        XCTAssertTrue(ferrari.miles > jeep.miles)
+        XCTAssertTrue(ferrari.miles < jeep.miles)
         
     }
     
